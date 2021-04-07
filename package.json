@@ -1,0 +1,22 @@
+{
+  "name": "eth-api",
+  "version": "1.0.0",
+  "description": "Node.js API for Ethereum Blockchain",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Geoov/reimagined-bachelor-degree.git"
+  },
+  "author": "Geov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Geoov/reimagined-bachelor-degree/issues"
+  },
+  "homepage": "https://github.com/Geoov/reimagined-bachelor-degree#readme"
+}
