@@ -36,7 +36,7 @@ npm install truffle -g
 
 5. truffle init / clone la primul commit
 
-### #Integrare_cu_node
+### Integrare_cu_node
 
 1. Initializare node.js
 ```

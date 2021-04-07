@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/Geoov/reimagined-bachelor-degree/issues"
   },
-  "homepage": "https://github.com/Geoov/reimagined-bachelor-degree#readme"
+  "homepage": "https://github.com/Geoov/reimagined-bachelor-degree#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.2.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "web3": "^1.3.5"
+  }
 }
