@@ -1,11 +1,13 @@
 require("dotenv").config();
 const express = require("express");
+var cors = require('cors')
 const app = express();
 const routes = require("./routes");
 const Web3 = require("web3");
 const artifact = require("./build/contracts/Diploma.json");
 
 app.use(express.json());
+app.use(cors())
 
 connectToWeb3 = () => {
   const provider = new Web3.providers.HttpProvider(
@@ -183,7 +185,9 @@ connectToWeb3 = () => {
 };
 
 app.listen(process.env.PORT || 8082, async () => {
+    console.log(`listening to port ${process.env.PORT}`)
   data = await connectToWeb3();
   web3 = data.web3;
   contract = data.contract;
+  routes(app, web3, contract);
 });

@@ -50,4 +50,6 @@ npm install nodemon
 npm install web3
 npm install dotenv
 npm install @truffle/hdwallet-provider
+npm install cors
+npm install ipfs-client-api
 ```
