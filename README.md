@@ -1,4 +1,4 @@
-# Dezvoltarea actelor de studii pe Ethereum Blockhain
+# Developing Smart Contracts on Ethereum
 
 
 ## Cuprins
