@@ -22,7 +22,7 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.35.1/install.sh | b
 nvm --version
 ```
 	
-3. Verifiare versiune node si instlare versiunea dorita
+3. Verificare versiune node si instlare versiunea dorita
 ```
 nvm ls
 nvm ls-remote
